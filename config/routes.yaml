@@ -1,0 +1,13 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+user:
+    path: /usuario
+    controller: App\Controller\UserController::index
+
+video:
+    path: /video
+    controller: App\Controller\VideoController::index
